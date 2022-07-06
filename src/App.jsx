@@ -1,6 +1,7 @@
 import { Main } from "./style/Global";
 import  Menu  from "./components/Menu";
 import Home from "./components/Home";
+import Description from "./components/Description";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <Main>
       <Menu />
       <Home />
+      <Description />
     </Main>
   );
 };

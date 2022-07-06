@@ -36,7 +36,7 @@ const Image = styled.article`
     }
 
     @media (min-width: 900px) {
-        width: 50%;
+        width: 30%;
     }
 `;
 
@@ -57,7 +57,7 @@ const Description = styled.article`
     }
 
     @media (min-width: 900px) {
-        width: 50%;
+        width: 30%;
 
         h1 {
             font-size: 47px;
