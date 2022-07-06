@@ -3,34 +3,66 @@ import styled from "styled-components";
 
 const Header = styled.header`
     width: 100%;
-    padding: 15px;
+    padding: 5px;
     display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    background-color: rgb(0, 0, 0);
+
+    .buttonmenu{
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+
+    @media (min-width: 650px) {
+        align-items: center;
+
+        .buttonmenu {
+            display: none;
+        }
+    }
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+    }
 `;
 
 const DivIcons = styled.div`
-    width: 30%;
     display: flex;
-    justify-content: center;
-    padding: 5px 0;
+    margin: 10px;
 `;
 
 const DivMenu = styled.div`
-    width: 70%;
-    display: flex;
+    display: none;
+    padding: 15px;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: 650px) {
+        display: flex;
+        flex-direction: row;
+    }
 `;
 
 const LinkIcon = styled.a`
-    margin: 10px;
-    font-size: 30px;
+    font-size: 45px;
+    display: flex;
+    cursor: pointer;
 `;
 
 const LinkMenu = styled.a`
     padding: 5px 10px;
-    margin: 5px;
     font-weight: bolder;
-    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+
+    @media (min-width: 650px) {
+        font-size: 18px;
+    }
 `;
 
 

@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 
 
 const GlobalStyle = createGlobalStyle`
-    body, main, div, header, a{
+    body, main, div, header, a, button, section, article, figure, img, h1, p {
         padding: 0;
         margin: 0;
         border: 0;
@@ -13,14 +13,12 @@ const GlobalStyle = createGlobalStyle`
         font-weight: normal;
         text-decoration: none;
         outline: none;
-        color: black;
     }
 `;
 
 const Main = styled.main`
     width: 100%;
     height: 100vh;
-    background-color: rgb(0, 0, 128);
 `;
 
 
