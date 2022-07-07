@@ -3,27 +3,34 @@ import styled from "styled-components";
 
 const Section = styled.section`
     width: 100%;
-    padding: 80px 20px 30px 20px;
-    position: relative;
+    padding: 30px 20px;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+
+    @media (min-width: 900px) {
+        height: 100vh;
+    }
+`;
+
+const Div = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 
-    h2{
-        font-size: 40px;
-        font-weight: 900;
-        color: rgb(255, 255, 255);
-        position: absolute;
-        top: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    @media (min-width: 900px) {
-        height: 100vh;
+    @media (min-width: 900px){
+        flex-direction: row;
     }
 `;
 
@@ -46,7 +53,7 @@ const Article = styled.article`
 
     div {
         display: flex;
-        justify-content: start;
+        justify-content: center;
         flex-wrap: wrap;
         align-self: stretch;
         gap: 15px;
@@ -61,4 +68,5 @@ const Article = styled.article`
 export {
     Section,
     Article,
+    Div,
 };

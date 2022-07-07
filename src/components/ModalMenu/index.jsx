@@ -8,11 +8,11 @@ const ModalMenu = ({ setMenu }) => {
         <Div>
             <DivMenu>
                 <IoIosClose className="closed" onClick={ () => setMenu(false) } />
-                <LinkMenu>{ "< Dev / Paulo >" }</LinkMenu>
-                <LinkMenu>Sobre</LinkMenu>
-                <LinkMenu>Tecnologias</LinkMenu>
+                <LinkMenu href="#banner">{ "< Dev / Paulo >" }</LinkMenu>
+                <LinkMenu href="#description">Sobre</LinkMenu>
+                <LinkMenu href="#technology">Tecnologias</LinkMenu>
                 <LinkMenu>Qualificações</LinkMenu>
-                <LinkMenu>Projetos</LinkMenu>
+                <LinkMenu href="#projects">Projetos</LinkMenu>
             </DivMenu>
         </Div>
     );

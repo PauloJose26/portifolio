@@ -34,11 +34,16 @@ const Image = styled.article`
         border-radius: 50%;
     }
     img {
-        width: 200px;
+        width: 100%;
     }
 
     @media (min-width: 900px) {
         width: 40%;
+
+        figure{
+            width: 350px;
+            height: 350px;
+        }
     }
 `;
 

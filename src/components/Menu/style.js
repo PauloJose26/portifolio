@@ -11,6 +11,7 @@ const Header = styled.header`
     color: rgb(255, 255, 255);
     font-size: 45px;
     background-color: rgb(0, 0, 0);
+    z-index: 1;
 
     .buttonmenu{
         position: fixed;
@@ -59,6 +60,7 @@ const LinkMenu = styled.a`
     font-weight: 900;
     font-size: 20px;
     cursor: pointer;
+    color: rgb(255, 255, 255);
 
     @media (min-width: 650px) {
         font-size: 18px;

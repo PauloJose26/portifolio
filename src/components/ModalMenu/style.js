@@ -40,6 +40,7 @@ const LinkMenu = styled.a`
     font-weight: bolder;
     font-size: 20px;
     cursor: pointer;
+    color: rgb(255, 255, 255);
 
     @media (min-width: 650px) {
         font-size: 18px;

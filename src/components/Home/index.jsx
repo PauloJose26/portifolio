@@ -4,7 +4,7 @@ import Perfil from "../../image/Perfil.jpg";
 
 const Home = () => {
     return (
-        <Banner>
+        <Banner id="banner">
             <Image>
                 <figure>
                     <img src={ Perfil } alt="Foto do perfil" />
