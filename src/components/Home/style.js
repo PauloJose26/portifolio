@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 const Banner = styled.section`
     width: 100%;
-    height: 100vh;
+    height: 70vh;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +14,7 @@ const Banner = styled.section`
     @media (min-width: 900px){
         flex-direction: row;
         align-items: stretch;
+        height: 100vh;
     }
 `;
 
@@ -36,7 +38,7 @@ const Image = styled.article`
     }
 
     @media (min-width: 900px) {
-        width: 30%;
+        width: 40%;
     }
 `;
 
@@ -57,7 +59,7 @@ const Description = styled.article`
     }
 
     @media (min-width: 900px) {
-        width: 30%;
+        width: 40%;
 
         h1 {
             font-size: 47px;

@@ -3,10 +3,9 @@ import styled from "styled-components";
 
 const Section = styled.section`
     width: 100%;
-    height: 100vh;
+    display: flex;
     padding: 30px;
     background-color: rgb(255, 255, 255);
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,6 +24,7 @@ const Section = styled.section`
     @media (min-width: 900px){
         flex-direction: row;
         justify-content: space-evenly;
+        height: 100vh;
 
         h2{
             font-size: 47px;
@@ -32,6 +32,7 @@ const Section = styled.section`
 
         p{
             width: 50%;
+            font-size: 25px;
             max-width: 600px;
         }
     }
@@ -39,5 +40,5 @@ const Section = styled.section`
 
 
 export {
-    Section
+    Section,
 };

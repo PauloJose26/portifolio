@@ -56,7 +56,7 @@ const LinkIcon = styled.a`
 
 const LinkMenu = styled.a`
     padding: 5px 10px;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 20px;
     cursor: pointer;
 
